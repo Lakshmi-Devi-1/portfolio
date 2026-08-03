@@ -1,103 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vudatha Lakshmi Devi | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vudatha Lakshmi Devi | Portfolio</title>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Icons -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- Animated Background -->
-<div class="bg-blur one"></div>
-<div class="bg-blur two"></div>
+<header class="navbar">
+    <div class="logo">Lakshmi<span>Devi</span></div>
 
-<!-- Navbar -->
-
-<header>
-
-<div class="logo">
-
-Lakshmi<span>Devi</span>
-
-</div>
-
-<nav>
-
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-
-</nav>
-
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
-
-<!-- Hero -->
 
 <section class="hero" id="home">
 
-<div class="hero-left">
+<div class="hero-content">
 
-<h4>Hello 👋 I'm</h4>
+<div class="hero-text">
 
-<h1>Vudatha <span>Lakshmi Devi</span></h1>
+<h3>Hello, I'm</h3>
+
+<h1>Vudatha Lakshmi Devi</h1>
 
 <h2>Java Full Stack Developer</h2>
 
 <p>
-
-Passionate about building scalable web applications
-using Java, Spring Boot, MySQL and modern frontend
-technologies.
-
+Passionate about building Java Full Stack applications,
+REST APIs and responsive web applications.
 </p>
 
-<div class="buttons">
-
-<a href="#projects" class="btn1">
-
-View Projects
-
-</a>
-
-<a href="#" class="btn2">
-
-Download Resume
-
-</a>
-
+<div class="hero-buttons">
+<a href="#projects" class="btn primary">View Projects</a>
+<a href="resume.pdf" class="btn secondary">Resume</a>
 </div>
 
 <div class="social">
-
-<a href="#"><i class="fab fa-github"></i></a>
-
+<a href="https://github.com/Lakshmi-Devi-1"><i class="fab fa-github"></i></a>
 <a href="#"><i class="fab fa-linkedin"></i></a>
-
-<a href="#"><i class="fas fa-envelope"></i></a>
-
+<a href="mailto:yourmail@gmail.com"><i class="fas fa-envelope"></i></a>
 </div>
 
 </div>
 
-<div class="hero-right">
+<div class="hero-image">
 
-<div class="glass-card">
-
-<img src="profile.jpg" alt="Profile">
+<img src="IMG20260507191816.jpg.jpeg" alt="Lakshmi Devi" class="profile-img">
 
 </div>
 
@@ -105,57 +89,32 @@ Download Resume
 
 </section>
 
-<!-- About -->
-
 <section id="about">
 
-<div class="title">
+<h2 class="section-title">About Me</h2>
 
-<h2>About Me</h2>
-
-<p>
-Who I am
-</p>
-
-</div>
-
-<div class="about-card">
+<div class="card">
 
 <p>
-
 I am an Electronics and Communication Engineering graduate passionate about Java Full Stack Development.
-
-I enjoy building real-world applications using Java,
-Spring Boot, JDBC, MySQL, HTML, CSS and JavaScript.
-
-Currently looking for Software Engineer opportunities where I can contribute, learn and grow.
-
+I enjoy building scalable software using Java, Spring Boot, JDBC, MySQL, HTML, CSS and JavaScript.
 </p>
 
 <div class="stats">
 
 <div>
-
-<h2>10+</h2>
-
+<h3>10+</h3>
 <p>Projects</p>
-
 </div>
 
 <div>
-
-<h2>8+</h2>
-
+<h3>8+</h3>
 <p>Certificates</p>
-
 </div>
 
 <div>
-
-<h2>2026</h2>
-
-<p>Graduate</p>
-
+<h3>8.60</h3>
+<p>CGPA</p>
 </div>
 
 </div>
@@ -163,409 +122,85 @@ Currently looking for Software Engineer opportunities where I can contribute, le
 </div>
 
 </section>
-
-<!-- Skills starts in Part 2 -->
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
-
-<script src="script.js"></script>
-
-
-<!-- ================= Skills ================= -->
 
 <section id="skills">
 
-<div class="title">
+<h2 class="section-title">Technical Skills</h2>
 
-<h2>Technical Skills</h2>
+<div class="grid">
 
-<p>Technologies I work with</p>
-
-</div>
-
-<div class="skills-grid">
-
-<div class="skill-card">
-<i class="fa-brands fa-java"></i>
-<h3>Java</h3>
-<p>Core Java, OOP, Collections, JDBC</p>
-</div>
-
-<div class="skill-card">
-<i class="fa-solid fa-leaf"></i>
-<h3>Spring Boot</h3>
-<p>REST APIs, MVC, JPA</p>
-</div>
-
-<div class="skill-card">
-<i class="fa-solid fa-database"></i>
-<h3>MySQL</h3>
-<p>Database Design & SQL Queries</p>
-</div>
-
-<div class="skill-card">
-<i class="fa-brands fa-html5"></i>
-<h3>HTML5</h3>
-<p>Semantic & Responsive Design</p>
-</div>
-
-<div class="skill-card">
-<i class="fa-brands fa-css3-alt"></i>
-<h3>CSS3</h3>
-<p>Flexbox, Grid, Animations</p>
-</div>
-
-<div class="skill-card">
-<i class="fa-brands fa-js"></i>
-<h3>JavaScript</h3>
-<p>DOM, ES6, Interactive UI</p>
-</div>
-
-<div class="skill-card">
-<i class="fa-brands fa-git-alt"></i>
-<h3>Git</h3>
-<p>Version Control</p>
-</div>
-
-<div class="skill-card">
-<i class="fa-brands fa-github"></i>
-<h3>GitHub</h3>
-<p>Repositories & Collaboration</p>
-</div>
+<div class="skill">Java</div>
+<div class="skill">Spring Boot</div>
+<div class="skill">JDBC</div>
+<div class="skill">MySQL</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Git & GitHub</div>
 
 </div>
 
 </section>
-
-<!-- ================= Experience ================= -->
 
 <section id="experience">
 
-<div class="title">
+<h2 class="section-title">Experience</h2>
 
-<h2>Experience</h2>
-
-<p>Internships & Learning Journey</p>
-
-</div>
-
-<div class="timeline">
-
-<div class="timeline-card">
+<div class="card">
 
 <h3>Hardware & Networking Intern</h3>
+<p><strong>City Online AP Pvt Ltd</strong></p>
+<p>Oct 2024 - Dec 2024</p>
 
-<h4>City Online AP Pvt. Ltd.</h4>
-
-<span>Oct 2024 – Dec 2024</span>
-
-<p>
-
-Worked on computer hardware troubleshooting,
-network setup, LAN configuration and CCNA concepts.
-
-</p>
-
-</div>
-
-<div class="timeline-card">
+<hr>
 
 <h3>Salesforce Developer Intern</h3>
-
-<h4>SmartInternz</h4>
-
-<span>Aug 2023 – Oct 2023</span>
-
-<p>
-
-Learned Salesforce fundamentals, Apex basics,
-CRM concepts and cloud platform development.
-
-</p>
-
-</div>
+<p><strong>SmartInternz</strong></p>
+<p>Aug 2023 - Oct 2023</p>
 
 </div>
 
 </section>
-
-<!-- ================= Education ================= -->
-
-<section id="education">
-
-<div class="title">
-
-<h2>Education</h2>
-
-<p>Academic Background</p>
-
-</div>
-
-<div class="edu-card">
-
-<h3>B.Tech - Electronics & Communication Engineering</h3>
-
-<p>Pragati Engineering College</p>
-
-<p>CGPA : 8.60</p>
-
-</div>
-
-<div class="edu-card">
-
-<h3>Diploma</h3>
-
-<p>Government Polytechnic for Women</p>
-
-<p>Percentage : 82%</p>
-
-</div>
-
-<div class="edu-card">
-
-<h3>SSC</h3>
-
-<p>Z.P.P High School</p>
-
-<p>Percentage : 90%</p>
-
-</div>
-
-</section>
-
-
-<script src="script.js"></script>
-
-
-
-<!-- ================= Projects ================= -->
 
 <section id="projects">
 
-<div class="title">
-<h2>Featured Projects</h2>
-<p>Some of my recent work</p>
-</div>
+<h2 class="section-title">Projects</h2>
 
-<div class="project-grid">
+<div class="projects">
 
 <div class="project-card">
-
-<div class="project-image">
-<img src="images/student-course.jpg" alt="Student Course Management">
-</div>
-
-<div class="project-content">
-
 <h3>Student Course Management System</h3>
-
-<p>
-
-Java, JDBC and MySQL based application to manage
-students, courses and enrollments using CRUD operations.
-
-</p>
-
-<div class="tech">
-
-<span>Java</span>
-<span>JDBC</span>
-<span>MySQL</span>
-
-</div>
-
-<div class="project-buttons">
-
-<a href="https://github.com/Lakshmi-Devi-1" target="_blank">GitHub</a>
-
-<a href="#">Live Demo</a>
-
-</div>
-
-</div>
-
+<p>Java + JDBC + MySQL CRUD Application.</p>
+<a href="https://github.com/Lakshmi-Devi-1">GitHub</a>
 </div>
 
 <div class="project-card">
-
-<div class="project-image">
-<img src="images/women-safety.jpg" alt="Women Safety Device">
-</div>
-
-<div class="project-content">
-
 <h3>Women Safety Device</h3>
-
-<p>
-
-IoT project using NodeMCU, GPS, Fall Detection Sensor
-and Telegram API for emergency alerts.
-
-</p>
-
-<div class="tech">
-
-<span>IoT</span>
-<span>GPS</span>
-<span>NodeMCU</span>
-
-</div>
-
-<div class="project-buttons">
-
-<a href="https://github.com/Lakshmi-Devi-1" target="_blank">GitHub</a>
-
-<a href="#">Case Study</a>
-
-</div>
-
-</div>
-
+<p>IoT based emergency alert system.</p>
+<a href="https://github.com/Lakshmi-Devi-1">GitHub</a>
 </div>
 
 </div>
 
 </section>
-
-<!-- ================= Certifications ================= -->
-
-<section id="certifications">
-
-<div class="title">
-
-<h2>Certifications</h2>
-
-<p>Professional Learning</p>
-
-</div>
-
-<div class="certificate-grid">
-
-<div class="certificate-card">
-<h3>Infosys Springboard</h3>
-<p>Java Full Stack Learning</p>
-</div>
-
-<div class="certificate-card">
-<h3>AICTE Internship</h3>
-<p>Virtual Internship Program</p>
-</div>
-
-<div class="certificate-card">
-<h3>SmartInternz</h3>
-<p>Salesforce Developer Internship</p>
-</div>
-
-<div class="certificate-card">
-<h3>Google AI/ML</h3>
-<p>Virtual Internship</p>
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= Contact ================= -->
 
 <section id="contact">
 
-<div class="title">
+<h2 class="section-title">Contact</h2>
 
-<h2>Let's Connect</h2>
+<div class="card">
 
-<p>I'm open to Software Engineer opportunities.</p>
-
-</div>
-
-<div class="contact-container">
-
-<div class="contact-box">
-
-<h3>Email</h3>
-
-<p>your-email@gmail.com</p>
-
-</div>
-
-<div class="contact-box">
-
-<h3>Location</h3>
-
-<p>Andhra Pradesh, India</p>
-
-</div>
-
-<div class="contact-box">
-
-<h3>GitHub</h3>
-
-<p>
-
-<a href="https://github.com/Lakshmi-Devi-1" target="_blank">
-
-github.com/Lakshmi-Devi-1
-
-</a>
-
-</p>
-
-</div>
-
-<div class="contact-box">
-
-<h3>LinkedIn</h3>
-
-<p>
-
-<a href="#">
-
-Add LinkedIn Profile
-
-</a>
-
-</p>
-
-</div>
+<p>Email : yourmail@gmail.com</p>
+<p>Location : Andhra Pradesh, India</p>
+<p>GitHub : https://github.com/Lakshmi-Devi-1</p>
 
 </div>
 
 </section>
 
-<!-- ================= Footer ================= -->
-
 <footer>
 
-<div class="footer-content">
-
-<h2>Vudatha Lakshmi Devi</h2>
-
-<p>
-
-Java Full Stack Developer
-
-</p>
-
-<div class="footer-social">
-
-<a href="#"><i class="fab fa-github"></i></a>
-
-<a href="#"><i class="fab fa-linkedin"></i></a>
-
-<a href="#"><i class="fas fa-envelope"></i></a>
-
-</div>
-
-<p class="copyright">
-
-© 2026 Vudatha Lakshmi Devi. All Rights Reserved.
-
-</p>
-
-</div>
+<p>© 2026 Vudatha Lakshmi Devi | All Rights Reserved.</p>
 
 </footer>
 
